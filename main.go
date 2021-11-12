@@ -41,6 +41,7 @@ func menu() {
 
 func leOpcao() int {
 	var opcao int
+	fmt.Print("opção: ")
 	fmt.Scan(&opcao)
 	fmt.Println("")
 
